@@ -5,5 +5,16 @@ body{
     font-family: "Marck Script", cursive;
     font-weight: 400;
     font-style: normal;
-    color: aliceblue;
+    margin: 0%;
+
+}
+
+header h1{
+    background-color: #E6E6FA;
+    color: white;
+    width: 100%;
+    text-align: right;
+    height: 50px;
+
+
 }
