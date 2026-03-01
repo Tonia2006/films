@@ -5,7 +5,7 @@ body{
     font-family: "Marck Script", cursive;
     font-weight: 400;
     font-style: normal;
-    margin: 0%;
+    margin: 10px;
 
 }
 
@@ -15,6 +15,52 @@ header h1{
     width: 100%;
     text-align: right;
     height: 50px;
+}
 
+.info img{
+    height: 300px;
+    border-radius: 25px;
+}
 
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info p{
+    background-color: #E6E6FA;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.choice-space{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px dotted white;
+    color: #E6E6FA;
+
+}
+
+.choice-btn button{
+    background-color: #E6E6FA;
+    border-radius: 25px;
+    height: 47px;
+    width: 156px;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+}
+
+.card{
+    background-color: #E6E6FA;
+    border-radius: 25px;
+    display: flex;
+    direction: column;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
 }
