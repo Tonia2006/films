@@ -12,14 +12,38 @@
     </header>
     <main>
         <section class="info">
-            <img src="https://images.pexels.com/photos/17616290/pexels-photo-17616290.jpeg">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel est sodales, pretium arcu quis, fermentum tortor. Duis posuere tellus facilisis dolor gravida mattis. Fusce in gravida mauris. Sed odio felis, semper et turpis non, ultrices dignissim augue. Donec rutrum sem a est dapibus vestibulum. Integer dapibus efficitur eros laoreet interdum. Integer in risus in ipsum tempus sollicitudin eu fringilla erat. Duis non molestie arcu. Sed ultricies libero in varius eleifend. Nulla quis posuere arcu, id pharetra odio. Morbi at pellentesque neque, ut egestas libero. Phasellus iaculis ligula dui, eget porttitor leo lacinia sed. Sed eu ipsum eget mi suscipit molestie. Pellentesque tincidunt enim nec nisi condimentum, at ornare dolor aliquam. Duis dui massa, dapibus nec interdum non, placerat eu ante. Vivamus vel porta dui, in cursus massa.</p>
+            <div class="photo">
+                <img src="https://images.pexels.com/photos/17616290/pexels-photo-17616290.jpeg">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel est sodales, pretium arcu quis, fermentum tortor. Duis posuere tellus facilisis dolor gravida mattis. Fusce in gravida mauris. Sed odio felis, semper et turpis non, ultrices dignissim augue. Donec rutrum sem a est dapibus vestibulum. Integer dapibus efficitur eros laoreet interdum. Integer in risus in ipsum tempus sollicitudin eu fringilla erat. Duis non molestie arcu. Sed ultricies libero in varius eleifend. Nulla quis posuere arcu, id pharetra odio. Morbi at pellentesque neque, ut egestas libero. Phasellus iaculis ligula dui, eget porttitor leo lacinia sed. Sed eu ipsum eget mi suscipit molestie. Pellentesque tincidunt enim nec nisi condimentum, at ornare dolor aliquam. Duis dui massa, dapibus nec interdum non, placerat eu ante. Vivamus vel porta dui, in cursus massa.</p>
+            </div>
         </section>
         <section class="choice-space">
             <div class="choice-btn">
-                <button>Жанр</button>
-                <button>Рейтинг</button>
-                <button>Рік</button>
+                <form class="choice">
+                    <div class="genre">
+                        <details>
+                            <summary class="name" id="genre">Genre</summary>
+                            <summary><input type="checkbox" id="genre" value="fantasy">Fantasy</summary>
+                            <summary><input type="checkbox" id="genre" value="horror">Horror</summary>
+                        </details>
+                    <div class="type">
+                        <details>
+                            <summary class="name" id="type">Type</summary>
+                            <summary><input type="checkbox" id="type" value="film">Film</summary>
+                            <summary><input type="checkbox" id="type" value="horror">Cartoon</summary>
+                        </details>
+                    </div>
+                    <div class="Year">
+                        <details>
+                            <summary class="name" id="Year">Type</summary>
+                            <summary><input type="checkbox" id="year" value="2000">2000</summary>
+                            <summary><input type="checkbox" id="year" value="2018">2018</summary>
+                        </details>
+                    </div>
+                    <button>Find</button>
+                </form>
             </div>
             <h2>Наша бібліотека</h2>
         </section>

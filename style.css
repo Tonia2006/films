@@ -20,11 +20,13 @@ header h1{
 .info img{
     height: 300px;
     border-radius: 25px;
+    margin: 10px;
 }
 
 .info{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    
 }
 
 .info p{
@@ -35,11 +37,12 @@ header h1{
     
 }
 
-.choice-space{
+.choice-space, .choice{
     display: flex;
     justify-content: space-between;
     border-bottom: 5px dotted white;
     color: #E6E6FA;
+    flex-direction: row;
 
 }
 
