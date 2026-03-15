@@ -103,3 +103,9 @@ button:hover{
     width: 200px;
     border-radius: 25px;
 }
+
+.library{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
