@@ -58,23 +58,25 @@ document.addEventListener('DOMContentLoaded', () => {
     function addMovie() {
         const title = document.getElementById("name-input").value;
         const genre = document.getElementById("genre-input").value;
-        const rating = document.getElementById("rating-nput").value;
+        const rating = document.getElementById("rating-input").value;
         const img = document.getElementById("image-input").value;
         const year = document.getElementById("year-input").value;
         const type = document.getElementById("type-input").value;
+
+        
       
         const movie = {
-          title: title,
+          name: title,
           poster: img,
           genre: genre,
-          rating: Number(rating),
+          reting: rating,
           year: Number(year),
           type: type
 
         };
       
         films.push(movie);
-        renderMovies();
+        create_block(movie);
       }
 
     const add = document.querySelector("button")
