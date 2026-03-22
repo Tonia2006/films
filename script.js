@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         {
             name: "Ван Піс",
-            poster: "https://anitube.in.ua/uploads/mini/full-news-poster/a/aba47a09a971cd129314578b03145d.jpg",
+            poster: "https://eneyida.tv/uploads/posts/2020-06/1591197109_1.jpg",
             genre: "Комедія",
             reting: "90",
             year: "1999",
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         {
             name: "Сім'я Шпигуна",
-            poster: "https://anitube.in.ua/uploads/mini/full-news-poster/1/18852549ae3ba3c89ba8154f6e1e51.jpg",
+            poster: "https://cdn.hikka.io/content/anime/spy-x-family-season-3-21987e/6PDeSrA_uppS3F7OEl6U-A.jpg",
             genre: "Комедія",
             reting: "82",
             year: "2022",
@@ -54,6 +54,31 @@ document.addEventListener('DOMContentLoaded', () => {
             type: "фільм"
         },
     ]
+
+    function addMovie() {
+        const title = document.getElementById("name-input").value;
+        const genre = document.getElementById("genre-input").value;
+        const rating = document.getElementById("rating-nput").value;
+        const img = document.getElementById("image-input").value;
+        const year = document.getElementById("year-input").value;
+        const type = document.getElementById("type-input").value;
+      
+        const movie = {
+          title: title,
+          poster: img,
+          genre: genre,
+          rating: Number(rating),
+          year: Number(year),
+          type: type
+
+        };
+      
+        films.push(movie);
+        renderMovies();
+      }
+
+    const add = document.querySelector("button")
+    add.addEventListener('click', addMovie)
 
     const library = document.querySelector(".library")
 
