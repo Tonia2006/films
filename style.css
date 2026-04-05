@@ -15,6 +15,8 @@ header h1{
     width: 100%;
     text-align: right;
     height: 50px;
+    border-radius: 25px;
+    padding-right: 15px;
 }
 
 .info img{
@@ -113,7 +115,7 @@ button:hover{
 }
 
 .add{
-    color: white;
+    color: #E6E6FA
 }
 
 input{
@@ -125,5 +127,3 @@ input{
 input:hover{
     box-shadow: 0px 40px 100px white;
 }
-
-.add button{}
